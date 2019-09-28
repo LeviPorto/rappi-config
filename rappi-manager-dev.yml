@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rappi-manager?autoReconnect=true&useSSL=false
+    username: root
+    password: q11W22e33#
+  jpa:
+    hibernate:
+      ddl-auto: update
