@@ -7,6 +7,8 @@ spring:
         git:
           uri: https://github.com/LeviPorto/rappi-config
           clone-on-start: true
+          username: LeviPorto
+          password: q11W22e33
   security:
     user:
       name: LeviPorto
