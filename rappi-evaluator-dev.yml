@@ -2,6 +2,12 @@ spring:
   redis:
     host: localhost
     port: 6379
+  data:
+    cassandra:
+      keyspace-name: rappi-evaluator
+      contact-points: localhost
+      port: 9042
+      schema-action: create_if_not_exists
 feign:
   api:
     manager: manager
