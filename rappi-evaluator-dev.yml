@@ -15,4 +15,4 @@ spring:
       group: 1234
 feign:
   api:
-    manager: manager
+    manager: rappi-manager
