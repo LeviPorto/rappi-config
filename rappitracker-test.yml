@@ -5,5 +5,5 @@ spring:
   kafka:
     bootstrap-servers: "localhost:9092"
     topic:
-      rating: "COORDINATE_EVENT_SOURCING"
+      coordinate: "COORDINATE_EVENT_SOURCING"
       group: 1234
