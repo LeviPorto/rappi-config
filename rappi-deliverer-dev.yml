@@ -12,4 +12,4 @@ spring:
     port: 6379
 feign:
   api:
-    manager: rappi_manager
+    manager: rappimanager
