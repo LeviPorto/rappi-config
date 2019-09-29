@@ -7,3 +7,6 @@ spring:
     topic:
       coordinate: "COORDINATE_EVENT_SOURCING"
       group: 1234
+  redis:
+    host: localhost
+    port: 6379
